@@ -9,7 +9,7 @@
 			<div class="col-md-12">
 				<div class="col-lg-4">
 					<h3 class="page-title">
-					Tournaments <small>register, compete, game.</small>
+					Турниры <small>регистрация, конкуренция, игра.</small>
 					</h3>
 				</div>
 				<div class="col-lg-8">
@@ -19,27 +19,27 @@
 					<ul class="page-breadcrumb breadcrumb">
 						<li>
 							<i class="fa fa-home"></i>
-							<a href="index.php">Home</a>
+							<a href="index.php">Домой</a>
 							<i class="fa fa-angle-right"></i>
 						</li>
 						<li>
-							<a href="#">Tournaments</a>
+							<a href="#">Турниры</a>
 						</li>
 					<?php if( isset($_GET['p'] ) ) { ?>
 						<?php if( $_GET['p'] == 'matchup' ) { ?>
 							<li>
 								<i class="fa fa-angle-right"></i>
-								<a href="#">View Matchup</a>
+								<a href="#">Посмотреть матчи</a>
 							</li>
 						<?php } elseif( $_GET['p'] == 'view' ) { ?>
 							<li>
 								<i class="fa fa-angle-right"></i>
-								<a href="#">View Bracket</a>
+								<a href="#">Посмотреть брекеты</a>
 							</li>
 						<?php } elseif( $_GET['p'] == 'rules' ) { ?>
 							<li>
 								<i class="fa fa-angle-right"></i>
-								<a href="#">View Rules</a>
+								<a href="#">Посмотреть правила</a>
 							</li>
 						<?php } ?>
 					<?php } ?>
@@ -114,8 +114,8 @@
 <?php include('footer.php'); ?>
 <script src="assets/global/scripts/normal.js" type="text/javascript"></script>
 <div id="register-tournament-team-confirm" title="Join this tournament?" style="display:none;">
-	<p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>Confirm tournament registration.</p>
+	<p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>Подтвердите регистрацию на турнире.</p>
 </div>
 <div id="make-prediction-confirm" title="Make game prediction" style="display:none;">
-	<p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>Confirm your prediction.</p>
+	<p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>Подтвердите свой прогноз.</p>
 </div>
