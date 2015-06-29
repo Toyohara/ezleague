@@ -9,7 +9,7 @@
 				<div class="col-md-12">
 					<div class="col-lg-4">
 						<h3 class="page-title">
-						About <small>create, manage, game.</small>
+						О Нас <small>создание, управление, игра.</small>
 						</h3>
 					</div>
 					<div class="col-lg-8">
@@ -19,11 +19,11 @@
 					<ul class="page-breadcrumb breadcrumb">
 						<li>
 							<i class="fa fa-home"></i>
-							<a href="index.php">Home</a>
+							<a href="index.php">Домой</a>
 							<i class="fa fa-angle-right"></i>
 						</li>
 						<li>
-							<a href="#">About</a>
+							<a href="#">О Нас</a>
 						</li>
 					</ul>
 					<!-- END PAGE TITLE & BREADCRUMB-->
@@ -34,7 +34,7 @@
 			<div class="row">
 				<div class="col-md-12 blog-page">
 						<div class="col-md-9 col-sm-8 article-block">
-							<h1>About <?php echo $site_settings['name']; ?></h1>
+							<h1>О нас <?php echo $site_settings['name']; ?></h1>
 								<div class="about-content">
 								<?php echo $site_settings['about']; ?>
 								</div>
