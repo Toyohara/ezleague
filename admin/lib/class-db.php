@@ -77,13 +77,13 @@ class DB_Class {
 	
 	public function success($text) {
 		
-		echo "<strong>Success!</strong> " . $text;
+		echo "<strong>Успех!</strong> " . $text;
 		
 	}
 	
 	public function error($text) {
 		
-		echo "<strong>Error</strong> " . $text;
+		echo "<strong>Ошибка</strong> " . $text;
 		
 	}
 	
