@@ -1,4 +1,6 @@
-#ezLeague 3.4.9#
+#ezLeague 3.5.7#
+
+Я не автор скрипта, я просто поперевожу.
 
 "a custom php online gaming script"
 
