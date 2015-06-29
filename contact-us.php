@@ -14,7 +14,7 @@
 				<div class="col-md-12">
 					<div class="col-lg-4">
 						<h3 class="page-title">
-						Contact <small>comment, question, contact.</small>
+						Связь <small>коментарии, вопросы, контакты.</small>
 						</h3>
 					</div>
 					<div class="col-lg-8">
@@ -28,7 +28,7 @@
 								<i class="fa fa-angle-right"></i>
 							</li>
 							<li>
-								<a href="#">Contact</a>
+								<a href="#">Связь</a>
 							</li>
 						</ul>
 					</div>
@@ -44,9 +44,9 @@
 								<div class="col-md-5">
 									<div class="space20">
 									</div>
-									<h3 class="form-section">Social Networks</h3>
+									<h3 class="form-section">Социальные сети</h3>
 									<p>
-										 Connect with us on a number of our social networks, and show your support for the <?php echo $site_settings['name']; ?> community.
+										 Свяжитесь с нами через социальные сети, покажите Вашу поддержку  <?php echo $site_settings['name']; ?> сообществу.
 									</p>
 									<div class="well-social-networks">
 										<ul class="contact-social-networks margin-bottom-10">
@@ -76,9 +76,9 @@
 								<div class="col-md-7">
 									<div class="space20">
 									</div>
-									<h3 class="form-section">Send a Message</h3>
+									<h3 class="form-section">Отправить сообщение</h3>
 									<p>
-										 Send us a message using the form below and we'll get back to you as soon as possible.
+										 Пришлите нам сообщение, используя форму ниже, и мы свяжемся с Вами так быстро как сможем.
 									</p>
 									<div class="success"><span class="success_text"></span></div>
 									<form id="sendMessage" method="POST">
