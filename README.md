@@ -1,4 +1,6 @@
-#ezLeague 3.4.9#
+Любительский перевод.
+
+#ezLeague 3.5.7#
 
 "a custom php online gaming script"
 
