@@ -44,7 +44,7 @@ $ez_tournament  = new ezAdmin_Tournament();
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ezLeague - Online Gaming League Management</title>
+    <title>ezLeague - Менеджер лиги он-лайн игр</title>
 
     <!-- Core CSS - Include with every page -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -82,16 +82,16 @@ $ez_tournament  = new ezAdmin_Tournament();
             <ul class="nav navbar-top-links navbar-right">
                 <li class="dropdown">
                  
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Welcome <em><?php echo $username; ?></em>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Приветсвуем <em><?php echo $username; ?></em>
                         <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="settings.php?page=profile"><i class="fa fa-gear fa-fw"></i> My Settings</a>
+                        <li><a href="settings.php?page=profile"><i class="fa fa-gear fa-fw"></i> Мои настройки</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="settings.php?page=admins"><i class="fa fa-users fa-fw"></i> View Admins</a>
+                        <li><a href="settings.php?page=admins"><i class="fa fa-users fa-fw"></i> Посмотреть админов</a>
                         </li>
-                        <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Выйти</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
