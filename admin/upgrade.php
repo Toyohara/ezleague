@@ -8,5 +8,5 @@ $ez = new ezAdmin();
      	$ez->run_upgrade();
      	unlink('upgrade.php');
      } else {
-     	echo 'You are not an admin';
+     	echo 'Ты не пройдешь!!!';
  	 }
