@@ -9,7 +9,7 @@
 			<div class="col-md-12">
 				<div class="col-lg-4">
 					<h3 class="page-title">
-					Турниры <small>регистрация, конкуренция, игра.</small>
+					Турниры <small>регистрация, состязание, игра.</small>
 					</h3>
 				</div>
 				<div class="col-lg-8">
